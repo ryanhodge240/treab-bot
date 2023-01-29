@@ -1,0 +1,10 @@
+ERROR: [_dispatch_tk_operation] operation: edit, args:('undo',)
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/thonny/tktextext.py", line 47, in _dispatch_tk_operation
+    return self.tk.call((self._original_widget_name, operation) + args)
+_tkinter.TclError: nothing to undo
+ERROR: [_dispatch_tk_operation] operation: edit, args:('undo',)
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/thonny/tktextext.py", line 47, in _dispatch_tk_operation
+    return self.tk.call((self._original_widget_name, operation) + args)
+_tkinter.TclError: nothing to undo
